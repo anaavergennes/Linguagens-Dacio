@@ -14,9 +14,9 @@ float  h,B,b, trapezio;
 	    
 	    trapezio =  (B+b) *h /2;
 	
-	 printf("A area do trapezio = %.2f\n", trapezio); // %f ? mostra um número decimal (float).
-                                                    // .2 ? mostra apenas 2 casas depois da vírgula.
-                                                    // esse \n é para pular linha só.
+	 printf("A area do trapezio = %.2f\n", trapezio); // %f ? mostra um nÃºmero decimal (float).
+                                                    // .2 ? mostra apenas 2 casas depois da vÃ­rgula.
+                                                    // esse \n Ã© para pular linha sÃ³.
 	return 0;
 }
 
