@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define pi 3.141592  // sempre que encontrar o "pi" ele colocará esse valor.
+#define pi 3.141592  // sempre que encontrar o "pi" ele colocarÃ¡ esse valor.
 
 int main(int argc, char *argv[]) {
 	
-	float r, area;  //serão números com vírgula
+	float r, area;  //serÃ£o nÃºmeros com vÃ­rgula
 	
 	printf("Insira o raio R do circulo \n ");
-	scanf("%f", &r);    // aqui ele lê o que o usuário vai colocar, está guardado no endereço de r
+	scanf("%f", &r);    // aqui ele lÃª o que o usuÃ¡rio vai colocar, estÃ¡ guardado no endereÃ§o de r
 	
 	area = pi * (r*r);
 	
