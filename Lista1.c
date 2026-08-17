@@ -148,19 +148,30 @@ int total_dias, anos, meses, dias, resto;
     /*
 
     EXERCICIO 8
+	
+#include <math.h>
 
-    #include <math.h>
+   int x1, x2, y1, y2;
+   float dist, cat1, cat2;
+    
+   printf("Entre com os valores para p1(x1,y1)");
+   scanf("%d", &x1);
+   scanf("%d", &y1);
 
+   printf("Entre com os valores para p2(x2,y2)");
+   scanf("%d", &x2);
+   scanf("%d", &y2);
 
-    double x1, y1, x2, y2;
-    
-    scanf("%lf %lf %lf %lf", &x1, &y1, &x2, &y2);
-    
-    double distancia = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
-    
-    printf("%.2lf\n", distancia);
+   cat1 = pow((x2-x1), 2);
+   cat2 = pow((y2-y1), 2);
+
+   dist = sqrt((cat1+cat2), 2);
+
+   printf("Distancia: %f", dist);
     
     return 0;
+
+}
 
     */
 
