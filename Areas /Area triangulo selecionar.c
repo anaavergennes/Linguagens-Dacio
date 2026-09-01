@@ -10,6 +10,6 @@ int main(int argc, char *argv[]) {
   scanf("%f", &altura);
   area = (base*altura)/2;
 
-  printf("A ·rea do tri‚ngulo = %.2f", area);
+  printf("A √°rea do tri√¢ngulo = %.2f", area);
   return 0;
 }
