@@ -1,0 +1,28 @@
+int main(int argc, char *argv[]) {
+	
+	char letra;
+	printf("Insira uma letra:\n");
+    scanf("%c", &letra);
+  
+    if (letra == 'a')printf("a de AMOR");
+    else if (letra == 'b')printf("b de BAIXINHO");
+    else if(letra == 'c')printf("c de CORAÇÃO");
+    else if(letra == 'd')printf("d de DOCINHO");
+    
+    switch (letra){
+    	case: 'a':
+    		printf("a de AMOR");
+    		break;
+    	case: 'b':
+    		printf("b de BAIXINHO");
+    		break;
+    	case: 'c':
+    		printf("c de CORAÇÃO");
+    		break;
+    	case: 'd':
+    		printf("d de DOCINHO");
+    		break;
+	}
+
+	return 0;
+}
