@@ -9,15 +9,17 @@ int main() {
     int digito2;
 
     printf("Digite os 11 numeros do CPF: ");
+    
+    int i;
 
-    for (int i = 0; i < 11; i++) {
+    for (i = 0; i < 11; i++) {
         scanf("%1d", &cpf[i]);
     }
 
-    // Calculando o primeiro digito
+    // Primeiro digito
     soma = 0;
 
-    for (int i = 0; i < 9; i++) {
+    for (i = 0; i < 9; i++) {
         soma = soma + cpf[i] * (10 - i);
     }
 
@@ -29,10 +31,10 @@ int main() {
         digito1 = resto;
     }
 
-    // Calculando o segundo digito
+    // Segundo digito
     soma = 0;
 
-    for (int i = 0; i < 10; i++) {
+    for (i = 0; i < 10; i++) {
         soma = soma + cpf[i] * (11 - i);
     }
 
@@ -44,7 +46,7 @@ int main() {
         digito2 = resto;
     }
 
-    // Verificando se o CPF é válido
+    //  CPF é válido
     if (digito1 == cpf[9] && digito2 == cpf[10]) {
         printf("CPF Valido!\n");
     } else {
