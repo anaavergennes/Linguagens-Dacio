@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+	float produto, vp, pvp;
+	
+	printf("Qual e o Valor do produto?");
+	scanf("%f", &produto);
+	
+	printf("Qual e o Valor patrimonial da empresa?");
+	scanf("%f", &vp);
+	
+	pvp = vp / (produto * 100) ;
+	
+	if ((produto > 10.00) && (pvp > 0.5)){
+		printf("O valor do P/VP eh: OTIMO!");
+	}
+	
+	else if ((produto < 1.00) && (pvp < 1.0)){
+		printf("O valor do P/VP eh: REGULAR!");
+	}
+	
+	else if((produto > 5.00) && (pvp < 1.2)){
+		printf("O valor do P/VP eh: RUIM!");
+	}
+	
+	else if((produto < 10.00) && (pvp > 0.3)){
+		printf("OPORTUNIDADE!");
+	}
+	
+		else if((produto > 1.00) && (pvp < 0.7)){
+		printf("ATENÇAO!");
+	}
+	
+	else{
+		printf("Valor invalido");
+	}
+	
+	return 0;
+}
