@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
 	scanf("%d", &valores[i]);	
 }
 printf("\n");
-for ( i=9; i>=0; i--){
+for ( i=9; i>=1; i--){
 	printf("|%d|", valores[i]);
 }
 	return 0;
